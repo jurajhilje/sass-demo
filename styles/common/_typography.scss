@@ -1,0 +1,15 @@
+body {
+  font-family: $fontFamily-OpenSans;
+  font-size: $fontSize-M;
+  @include readable-text;
+}
+
+h1 {
+  color: $marine;
+  @include font($fontSize-XXXL, $fontWeight-light);
+}
+
+p {
+  color: $green;
+  @include font($fontSize-M, $fontWeight-regular);
+}

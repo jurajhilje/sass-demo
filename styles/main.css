@@ -1,0 +1,31 @@
+/*
+h1 {
+  @include font(24px, bold, italic, 1.6, black);
+}
+h2 {
+  @include font(18px, normal);
+}
+*/
+/*
+div {
+  @include readable-text;
+}
+*/
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+
+h1 {
+  color: #1e3443;
+  font-size: 48px;
+  font-weight: 300; }
+
+p {
+  color: #a6d32f;
+  font-size: 16px;
+  font-weight: normal; }
